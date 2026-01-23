@@ -18,7 +18,7 @@ export interface BluetoothManagerType {
   disableBluetooth(): Promise<boolean>;
   scanDevices(): Promise<{ paired: BluetoothDevice[]; found: BluetoothDevice[] }>;
   connect(address: string): Promise<void>;
-  disconnect(): Promise<void>;
+  disconnect(address: string): Promise<void>;
   getConnectedDevice(): Promise<BluetoothDevice | null>;
 }
 
