@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-#ifndef _ZXINGOBJC_MAXICODE_
+#ifndef _VZZXINGOBJC_MAXICODE_
 
-#define _ZXINGOBJC_MAXICODE_
+#define _VZZXINGOBJC_MAXICODE_
 
-#import "ZXMaxiCodeDecoder.h"
-#import "ZXMaxiCodeReader.h"
+#import "VZZXMaxiCodeDecoder.h"
+#import "VZZXMaxiCodeReader.h"
 
 #endif

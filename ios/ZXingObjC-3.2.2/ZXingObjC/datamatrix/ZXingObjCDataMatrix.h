@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-#ifndef _ZXINGOBJC_DATAMATRIX_
+#ifndef _VZZXINGOBJC_DATAMATRIX_
 
-#define _ZXINGOBJC_DATAMATRIX_
+#define _VZZXINGOBJC_DATAMATRIX_
 
-#import "ZXDataMatrixDecoder.h"
-#import "ZXDataMatrixDefaultPlacement.h"
-#import "ZXDataMatrixDetector.h"
-#import "ZXDataMatrixEdifactEncoder.h"
-#import "ZXDataMatrixEncoder.h"
-#import "ZXDataMatrixEncoderContext.h"
-#import "ZXDataMatrixErrorCorrection.h"
-#import "ZXDataMatrixHighLevelEncoder.h"
-#import "ZXDataMatrixReader.h"
-#import "ZXDataMatrixSymbolInfo.h"
-#import "ZXDataMatrixVersion.h"
-#import "ZXDataMatrixWriter.h"
+#import "VZZXDataMatrixDecoder.h"
+#import "VZZXDataMatrixDefaultPlacement.h"
+#import "VZZXDataMatrixDetector.h"
+#import "VZZXDataMatrixEdifactEncoder.h"
+#import "VZZXDataMatrixEncoder.h"
+#import "VZZXDataMatrixEncoderContext.h"
+#import "VZZXDataMatrixErrorCorrection.h"
+#import "VZZXDataMatrixHighLevelEncoder.h"
+#import "VZZXDataMatrixReader.h"
+#import "VZZXDataMatrixSymbolInfo.h"
+#import "VZZXDataMatrixVersion.h"
+#import "VZZXDataMatrixWriter.h"
 
 #endif

@@ -16,26 +16,26 @@
 
 #import "ZXingObjCCore.h"
 
-#ifndef _ZXINGOBJC_QRCODE_
+#ifndef _VZZXINGOBJC_QRCODE_
 
-#define _ZXINGOBJC_QRCODE_
+#define _VZZXINGOBJC_QRCODE_
 
-#import "ZXMultiDetector.h"
-#import "ZXQRCode.h"
-#import "ZXQRCodeAlignmentPattern.h"
-#import "ZXQRCodeDecoder.h"
-#import "ZXQRCodeDecoderMetaData.h"
-#import "ZXQRCodeDetector.h"
-#import "ZXQRCodeEncoder.h"
-#import "ZXQRCodeErrorCorrectionLevel.h"
-#import "ZXQRCodeFinderPatternInfo.h"
-#import "ZXQRCodeFinderPattern.h"
-#import "ZXQRCodeFinderPatternFinder.h"
-#import "ZXQRCodeFinderPatternInfo.h"
-#import "ZXQRCodeMode.h"
-#import "ZXQRCodeMultiReader.h"
-#import "ZXQRCodeReader.h"
-#import "ZXQRCodeVersion.h"
-#import "ZXQRCodeWriter.h"
+#import "VZZXMultiDetector.h"
+#import "VZZXQRCode.h"
+#import "VZZXQRCodeAlignmentPattern.h"
+#import "VZZXQRCodeDecoder.h"
+#import "VZZXQRCodeDecoderMetaData.h"
+#import "VZZXQRCodeDetector.h"
+#import "VZZXQRCodeEncoder.h"
+#import "VZZXQRCodeErrorCorrectionLevel.h"
+#import "VZZXQRCodeFinderPatternInfo.h"
+#import "VZZXQRCodeFinderPattern.h"
+#import "VZZXQRCodeFinderPatternFinder.h"
+#import "VZZXQRCodeFinderPatternInfo.h"
+#import "VZZXQRCodeMode.h"
+#import "VZZXQRCodeMultiReader.h"
+#import "VZZXQRCodeReader.h"
+#import "VZZXQRCodeVersion.h"
+#import "VZZXQRCodeWriter.h"
 
 #endif

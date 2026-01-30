@@ -23,42 +23,42 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |ss|
     ss.source_files = 'ZXingObjC/*.{h,m}', 'ZXingObjC/client/*.{h,m}', 'ZXingObjC/common/**/*.{h,m}', 'ZXingObjC/core/**/*.{h,m}', 'ZXingObjC/multi/**/*.{h,m}'
-    ss.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => "ZXINGOBJC_USE_SUBSPECS" }		 
+    ss.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => "VZZXINGOBJC_USE_SUBSPECS" }		 
   end
 
   s.subspec 'Aztec' do |ss|
     ss.dependency 'ZXingObjC/Core'
     ss.source_files = 'ZXingObjC/aztec/**/*.{h,m}'
-    ss.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => "ZXINGOBJC_USE_SUBSPECS ZXINGOBJC_AZTEC" }
+    ss.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => "VZZXINGOBJC_USE_SUBSPECS VZZXINGOBJC_AZTEC" }
   end
 
   s.subspec 'DataMatrix' do |ss|
     ss.dependency 'ZXingObjC/Core'
     ss.source_files = 'ZXingObjC/datamatrix/**/*.{h,m}'
-    ss.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => "ZXINGOBJC_USE_SUBSPECS ZXINGOBJC_DATAMATRIX" }
+    ss.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => "VZZXINGOBJC_USE_SUBSPECS VZZXINGOBJC_DATAMATRIX" }
   end
 
   s.subspec 'MaxiCode' do |ss|
     ss.dependency 'ZXingObjC/Core'
     ss.source_files = 'ZXingObjC/maxicode/**/*.{h,m}'
-    ss.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => "ZXINGOBJC_USE_SUBSPECS ZXINGOBJC_MAXICODE" }
+    ss.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => "VZZXINGOBJC_USE_SUBSPECS VZZXINGOBJC_MAXICODE" }
   end
 
   s.subspec 'OneD' do |ss|
     ss.dependency 'ZXingObjC/Core'
     ss.source_files = 'ZXingObjC/oned/**/*.{h,m}', 'ZXingObjC/client/result/**/*.{h,m}'
-    ss.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => "ZXINGOBJC_USE_SUBSPECS ZXINGOBJC_ONED" }
+    ss.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => "VZZXINGOBJC_USE_SUBSPECS VZZXINGOBJC_ONED" }
   end
 
   s.subspec 'PDF417' do |ss|
     ss.dependency 'ZXingObjC/Core'
     ss.source_files = 'ZXingObjC/pdf417/**/*.{h,m}'
-    ss.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => "ZXINGOBJC_USE_SUBSPECS ZXINGOBJC_PDF417" }
+    ss.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => "VZZXINGOBJC_USE_SUBSPECS VZZXINGOBJC_PDF417" }
   end
 
   s.subspec 'QRCode' do |ss|
     ss.dependency 'ZXingObjC/Core'
     ss.source_files = 'ZXingObjC/qrcode/**/*.{h,m}'
-    ss.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => "ZXINGOBJC_USE_SUBSPECS ZXINGOBJC_QRCODE" }
+    ss.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => "VZZXINGOBJC_USE_SUBSPECS VZZXINGOBJC_QRCODE" }
   end
 end

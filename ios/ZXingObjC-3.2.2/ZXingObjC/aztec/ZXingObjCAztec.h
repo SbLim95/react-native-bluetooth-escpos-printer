@@ -16,17 +16,17 @@
 
 #import "ZXingObjCCore.h"
 
-#ifndef _ZXINGOBJC_AZTEC_
+#ifndef _VZZXINGOBJC_AZTEC_
 
-#define _ZXINGOBJC_AZTEC_
+#define _VZZXINGOBJC_AZTEC_
 
-#import "ZXAztecCode.h"
-#import "ZXAztecDecoder.h"
-#import "ZXAztecDetector.h"
-#import "ZXAztecDetectorResult.h"
-#import "ZXAztecEncoder.h"
-#import "ZXAztecHighLevelEncoder.h"
-#import "ZXAztecReader.h"
-#import "ZXAztecWriter.h"
+#import "VZZXAztecCode.h"
+#import "VZZXAztecDecoder.h"
+#import "VZZXAztecDetector.h"
+#import "VZZXAztecDetectorResult.h"
+#import "VZZXAztecEncoder.h"
+#import "VZZXAztecHighLevelEncoder.h"
+#import "VZZXAztecReader.h"
+#import "VZZXAztecWriter.h"
 
 #endif

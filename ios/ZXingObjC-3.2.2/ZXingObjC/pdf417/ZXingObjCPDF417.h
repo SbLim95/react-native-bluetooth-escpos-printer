@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-#ifndef _ZXINGOBJC_PDF417_
+#ifndef _VZZXINGOBJC_PDF417_
 
-#define _ZXINGOBJC_PDF417_
+#define _VZZXINGOBJC_PDF417_
 
-#import "ZXModulusGF.h"
-#import "ZXPDF417.h"
-#import "ZXPDF417BarcodeMatrix.h"
-#import "ZXPDF417Common.h"
-#import "ZXPDF417Detector.h"
-#import "ZXPDF417DetectorResult.h"
-#import "ZXPDF417Dimensions.h"
-#import "ZXPDF417ECErrorCorrection.h"
-#import "ZXPDF417Reader.h"
-#import "ZXPDF417ResultMetadata.h"
-#import "ZXPDF417ScanningDecoder.h"
-#import "ZXPDF417Writer.h"
+#import "VZZXModulusGF.h"
+#import "VZZXPDF417.h"
+#import "VZZXPDF417BarcodeMatrix.h"
+#import "VZZXPDF417Common.h"
+#import "VZZXPDF417Detector.h"
+#import "VZZXPDF417DetectorResult.h"
+#import "VZZXPDF417Dimensions.h"
+#import "VZZXPDF417ECErrorCorrection.h"
+#import "VZZXPDF417Reader.h"
+#import "VZZXPDF417ResultMetadata.h"
+#import "VZZXPDF417ScanningDecoder.h"
+#import "VZZXPDF417Writer.h"
 
 #endif

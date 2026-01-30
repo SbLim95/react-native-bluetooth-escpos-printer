@@ -244,3 +244,8 @@ BluetoothEscposPrinter.openDrawer(0, 250, 250);
 - [Original repo – januslo/react-native-bluetooth-escpos-printer](https://github.com/januslo/react-native-bluetooth-escpos-printer)
 - [Ccdilan fork – @ccdilan/react-native-bluetooth-escpos-printer](https://github.com/ccdilan/react-native-bluetooth-escpos-printer)
 - [This fork – @vardrz/react-native-bluetooth-escpos-printer](https://github.com/vardrz/react-native-bluetooth-escpos-printer)
+
+
+## Extra Note
+1. Change the ZxingObjc package name and file name from ZX to VZZX
+2. Support install with expo-camera 
